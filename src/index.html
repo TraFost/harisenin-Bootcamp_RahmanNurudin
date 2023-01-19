@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Tugas 2 Kak Rizal</title>
+  </head>
+  <body>
+    <div class="navbar bg-base-100 navbar-sticky">
+      <div class="navbar-start pl-1">
+        <div class="flex-none">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>WOMAN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a>ALL</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navbar-center">
+        <a class="btn btn-ghost normal-case text-xl"
+          ><span class="text-[#A0A0A0]">NAH</span
+          ><span class="text-[#000000]">IKI</span>
+          <div class="pl-1">&#9932;</div>
+        </a>
+      </div>
+      <div class="navbar-end pr-3">
+        <button class="btn btn-ghost btn-circle">
+          <div class="indicator">
+            <img src="../assets/user.png" alt="user" class="h-6 w-6" />
+          </div>
+        </button>
+        <button class="btn btn-ghost btn-circle">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            />
+          </svg>
+        </button>
+        <button class="btn btn-ghost btn-circle cart-popup">
+          <div class="indicator">
+            <img src="../assets/cart.png" alt="user" class="h-6 w-6" />
+            <span class="badge badge-sm indicator-item">0</span>
+          </div>
+        </button>
+      </div>
+    </div>
+    <div>
+      <div class="relative">
+        <img src="../assets/image 12.png" alt="hero" />
+        <div class="image-text">
+          <h2 class="text-4xl pb-5">WE ARE NEVER DONE</h2>
+          <p class="w-2/4 pb-5 font-medium">
+            Celebrating 50 years of Nike from May 16th! Exclusive products,
+            experiences and much more await you for five days. Scan and join the
+            Nike app!
+          </p>
+          <button
+            class="btn btn-active bg-white text-black rounded-full text-base font-semibold"
+          >
+            Celebrate With Us
+          </button>
+        </div>
+      </div>
+      <div>
+        <img src="../assets/Rectangle.png" alt="another-logo" />
+      </div>
+      <div class="relative">
+        <img src="../assets/Rectangle 1141.png" alt="logo" />
+        <img
+          src="../assets/Vector.png"
+          alt="nike-logo"
+          class="absolute top-[300px] left-[495px]"
+        />
+      </div>
+    </div>
+    <div class="flex justify-center items-center gap-12 relative bottom-9">
+      <div
+        class="card w-card-width-1 h-72 bg-[#EFEFEF] text-primary-content shadow-2xl"
+      >
+        <div class="card-body pl-16 pt-16">
+          <h2 class="card-title text-[#FF3939] text-5xl italic font-black">
+            NEW
+          </h2>
+          <p class="text-[#000000] w-[45%] text-xl font-thin">
+            AIR JORDAN 1 MID LIGHT SMOKE GREY
+          </p>
+          <button class="pl-10 pb-5">
+            <img src="../assets/Group 59.png" alt="arrow-button" />
+          </button>
+        </div>
+        <img
+          src="../assets/nike-air-max-270-sunset-dq7625-600_w380-removebg-preview 3.svg"
+          alt="nike-air-max"
+          class="absolute left-36 -top-[6.7rem]"
+        />
+      </div>
+      <div
+        class="card w-card-width-1 h-72 bg-[#EFEFEF] text-primary-content shadow-2xl"
+      >
+        <div class="card-body pl-16 pt-16">
+          <h2 class="card-title text-[#FF3939] text-5xl italic font-black">
+            NEW
+          </h2>
+          <p class="text-[#000000] w-[45%] text-xl font-thin pt-4">
+            Air Max 200 SE
+          </p>
+          <button class="pl-10 pb-5">
+            <img src="../assets/Group 59.png" alt="arrow-button" />
+          </button>
+        </div>
+        <img
+          src="../assets/Red Shoe.svg"
+          alt="nike-air-max"
+          class="absolute -right-[19.5px] -top-[5.8rem]"
+        />
+      </div>
+    </div>
+    <div class="flex flex-col justify-center items-center pt-[70px]">
+      <div><p class="font-normal text-[40px]">At the moment</p></div>
+      <div>
+        <h1
+          class="font-black text-[80px] italic text-[#000000]"
+          id="text-heading"
+        >
+          SUMMERTIME MOOD
+        </h1>
+      </div>
+      <div>
+        <p class="font-normal text-[40px]">Fight the heat in a sunny look!</p>
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="pl-12 container pt-[103px] product-container">
+      <div class="flex justify-between pb-8">
+        <h3 class="font-bold text-[40px] text-black">Top Sneakers</h3>
+        <div>
+          <a href="#" class="btn btn-circle next-btn">&#10094;</a>
+          <a href="#" class="btn btn-circle prev-btn">&#10095;</a>
+        </div>
+      </div>
+      <div class="flex gap-14">
+        <div
+          class="flex w-[392px] h-[580px] bg-[#EFEFEF] rounded-3xl shadow-2xl relative"
+        >
+          <img
+            src="../assets/NIKE.png"
+            alt="nike-placeholder"
+            class="absolute left-[8.5rem] top-28"
+          />
+          <img
+            src="../assets/Yellow Shoe.png"
+            alt="yellow-shoe"
+            class="absolute top-[3rem] right-4"
+          />
+          <div class="flex flex-col items-end justify-end pb-10 pl-10">
+            <h5 class="font-bold text-[40px]">Air Max 97</h5>
+            <p class="font-normal text-xl self-start pt-7">$100.00</p>
+            <button
+              class="btn-circle absolute bottom-[20px] right-[39px] button-shopping"
+            >
+              <img src="../assets/Group 59.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex w-[392px] h-[580px] bg-[#EFEFEF] rounded-3xl shadow-2xl relative"
+        >
+          <img
+            src="../assets/NIKE.png"
+            alt="nike-placeholder"
+            class="absolute left-[8.5rem] top-28"
+          />
+          <img
+            src="../assets/15947562_30161559_1000-removebg-preview 1.png"
+            alt="yellow-shoe"
+            class="absolute top-16 -right-1"
+          />
+          <div class="flex flex-col items-end justify-end pb-10 pl-10">
+            <h5 class="font-bold text-[40px]">React Presto</h5>
+            <p class="font-normal text-xl self-start pt-7">$100.00</p>
+            <button
+              class="btn-circle absolute bottom-[20px] right-[39px] button-shopping"
+            >
+              <img src="../assets/Group 59.png" alt="" />
+            </button>
+          </div>
+        </div>
+        <div
+          class="flex w-[392px] h-[580px] bg-[#EFEFEF] rounded-3xl shadow-2xl relative"
+        >
+          <img
+            src="../assets/NIKE.png"
+            alt="nike-placeholder"
+            class="absolute left-[8.5rem] top-28"
+          />
+          <img
+            src="../assets/Shoe 1.png"
+            alt="yellow-shoe"
+            class="absolute top-8 -right-1"
+          />
+          <div class="flex flex-col items-end justify-end pb-10 pl-10">
+            <h5 class="font-bold text-[40px]">KD13 EP</h5>
+            <p class="font-normal text-xl self-start pt-7">$100.00</p>
+            <button
+              class="btn-circle absolute bottom-[20px] right-[39px] button-shopping"
+            >
+              <img src="../assets/Group 59.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- category -->
+    <div class="container mt-24">
+      <h2 class="pl-9 font-bold text-[40px]">Buy By Category</h2>
+      <div class="pt-8 flex justify-around">
+        <h3
+          class="text-4xl italic font-bold tracking-[0.3em] pt-36 pl-36 text-center"
+        >
+          STREETWEAR
+        </h3>
+        <img
+          src="../assets/nike-1-gif.gif"
+          alt="nike-streetwear/basketball"
+          class="w-[652px] h-[567]"
+        />
+      </div>
+      <div class="pt-8 flex justify-around">
+        <img
+          src="../assets/chuteira-nike-olha-isso.gif"
+          alt="nike-sports"
+          class="w-[648px] h-[567]"
+        />
+        <h3
+          class="text-4xl italic font-bold tracking-[0.3em] pt-[10.5rem] pr-16"
+        >
+          FOOTBALL
+        </h3>
+      </div>
+      <div class="pt-8 flex justify-around">
+        <h3
+          class="text-4xl italic font-bold tracking-[0.3em] pt-36 pl-40 text-center"
+        >
+          RUN
+        </h3>
+        <img
+          src="../assets/running-running-man.gif"
+          alt="nike-streetwear/basketball"
+          class="w-[652px] h-[350px] pl-[4.5rem]"
+        />
+      </div>
+    </div>
+    <div class="container pt-24">
+      <h2 class="text-center font-black italic text-[40px] text-[#000000]">
+        LOOKS GOOD. RUNS GOOD. FEELS GOOD.
+      </h2>
+    </div>
+    <div class="container flex gap-20 pt-16 justify-center">
+      <div
+        class="flex relative w-[550px] h-[272px] bg-[#EFEFEF] rounded-3xl shadow-2xl"
+      >
+        <div class="self-center pl-12">
+          <h6 class="text-[#FF3939] font-bold pb-5">
+            <span class="text-3xl">-20%</span
+            ><span class="text-2xl pl-[14px]">DISCOUNT</span>
+          </h6>
+          <p class="pb-14 font-normal text-xl">On Your First Purchase</p>
+          <button
+            class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-black font-normal text-xl"
+            id="modal-button"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div class="self-center">
+          <img
+            src="../assets/Nike-Shoe.png"
+            alt="nike-airmax"
+            class="absolute -bottom-[7.5rem] -right-28"
+          />
+        </div>
+      </div>
+      <div
+        class="flex relative w-[550px] h-[272px] bg-[#EFEFEF] rounded-3xl shadow-2xl"
+      >
+        <div class="self-center pl-12">
+          <h6 class="text-[#FF3939] font-bold pb-5">
+            <span class="text-3xl">-20%</span
+            ><span class="text-2xl pl-[14px]">DISCOUNT</span>
+          </h6>
+          <p class="pb-14 font-normal text-xl">On Your First Purchase</p>
+          <button
+            class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-black font-normal text-xl"
+            id="modal-button"
+          >
+            Shop Now
+          </button>
+        </div>
+        <div class="self-center">
+          <img
+            src="../assets/Green 1.png"
+            alt="nike-sport"
+            class="absolute -bottom-[4.2rem] -right-16"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- modal -->
+    <div
+      class="myown-modal flex justify-center items-center fixed top-0 left-0 w-full h-screen bg-[rgba(0,0,0,0.2)]"
+    >
+      <div class="relative bg-white w-[1080px] h-[631px]">
+        <div class="flex justify-center">
+          <div class="pt-[18px] pl-[17px]">
+            <button>
+              <img
+                src="../assets/🦆 icon _x letter_.png"
+                alt="close-button"
+                class="w-[17px] h-[25px] close-button"
+              />
+            </button>
+          </div>
+          <div class="flex flex-col w-1/2 self-center pl-[50px]">
+            <div class="text-start">
+              <h3 class="text-[25px] font-bold">Wanna shop in our website?</h3>
+              <p class="text-md pt-2 pb-[30px]">Please Login First!</p>
+            </div>
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              class="input input-bordered w-full max-w-xs mb-5"
+            />
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              class="input input-bordered w-full max-w-xs mb-2"
+            />
+            <div class="flex justify-between pt-[10px]">
+              <div class="pr-20">
+                <input type="checkbox" />
+                <span class="text-xs">Remember me</span>
+              </div>
+              <a href="#" class="pr-[9.8rem] pt-1 text-xs">Forgot Password ?</a>
+            </div>
+            <div class="flex flex-col gap-[11px] pt-[11px]">
+              <button
+                class="bg-[#222222] text-white w-[313px] h-[41px] rounded-xl hover:bg-[#B2B2B2] hover:text-black"
+              >
+                Sign In
+              </button>
+              <button
+                class="bg-[#222222] text-white w-[313px] h-[41px] rounded-xl hover:bg-[#B2B2B2] hover:text-black"
+              >
+                Sign in with google
+              </button>
+              <p class="text-xs">
+                Don't have an account?
+                <span class="text-[#EA454C] font-medium cursor-pointer"
+                  >Sign up for free!</span
+                >
+              </p>
+            </div>
+          </div>
+          <!-- image side -->
+          <div class="w-1/2 h-1/2">
+            <img
+              src="../assets/Right Side.png"
+              alt="icon"
+              class="object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECOND MODAL, POP-UP CART -->
+    <div
+      class="cart-modal flex justify-center items-center fixed top-0 left-0 w-full h-screen bg-[rgba(0,0,0,0.1)] text-white"
+    >
+      <div class="relative bg-black w-[1080px] h-[631px] overflow-y-scroll">
+        <div class="pl-[45px] pt-10">
+          <h3 class="font-semibold text-lg pl-6">Shopping Cart</h3>
+          <div class="border-b-2 border-[#D0CFCF] w-[608px] pt-[19px]"></div>
+          <div class="pt-6 pb-[29px]">
+            <h2 class="font-medium text-lg">Your list</h2>
+            <p class="text-base cart-list">You Have 4 items in your cart</p>
+          </div>
+        </div>
+        <div class="flex">
+          <div class="pl-[45px] content-cart">
+            <div
+              class="w-[608px] h-[100px] border border-white rounded-2xl flex pt-2 pl-2 mb-6"
+            >
+              <img
+                src="../assets/Shoe 1.png"
+                alt=""
+                class="w-[80px] h-[82px] bg-white rounded-lg"
+              />
+              <div class="pl-4 pt-4">
+                <h5>Nike</h5>
+                <p>Good shoes for running</p>
+              </div>
+              <div class="pt-7 pl-20">
+                <p class="text-2xl item-cart">1</p>
+              </div>
+              <div class="flex flex-col pt-8 pl-2 gap-1">
+                <button>
+                  <img src="../assets/Rectangle 6.png" alt="up" class="up" />
+                </button>
+                <button>
+                  <img
+                    src="../assets/Rectangle 7.png"
+                    alt="down"
+                    class="down"
+                  />
+                </button>
+              </div>
+              <div class="flex pt-[2.05rem] pl-16">
+                <p class="price-cart">100$</p>
+                <div class="pl-16 relative bottom-[4px]">
+                  <img
+                    src="../assets/Trash Can.png"
+                    alt=""
+                    class="w-[25px] h-[25px] cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[608px] h-[100px] border border-white rounded-2xl flex pt-2 pl-2 mb-6"
+            >
+              <img
+                src="../assets/Shoe 1.png"
+                alt=""
+                class="w-[80px] h-[82px] bg-white rounded-lg"
+              />
+              <div class="pl-4 pt-4">
+                <h5>Nike</h5>
+                <p>Good shoes for running</p>
+              </div>
+              <div class="pt-7 pl-20">
+                <p class="text-2xl item-cart">1</p>
+              </div>
+              <div class="flex flex-col pt-8 pl-2 gap-1">
+                <button>
+                  <img src="../assets/Rectangle 6.png" alt="up" class="up" />
+                </button>
+                <button>
+                  <img
+                    src="../assets/Rectangle 7.png"
+                    alt="down"
+                    class="down"
+                  />
+                </button>
+              </div>
+              <div class="flex pt-[2.05rem] pl-16">
+                <p class="price-cart">100$</p>
+                <div class="pl-16 relative bottom-[4px]">
+                  <img
+                    src="../assets/Trash Can.png"
+                    alt=""
+                    class="w-[25px] h-[25px] cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[608px] h-[100px] border border-white rounded-2xl flex pt-2 pl-2 pb-4 mb-6"
+            >
+              <img
+                src="../assets/Shoe 1.png"
+                alt=""
+                class="w-[80px] h-[82px] bg-white rounded-lg"
+              />
+              <div class="pl-4 pt-4">
+                <h5>Nike</h5>
+                <p>Good shoes for running</p>
+              </div>
+              <div class="pt-7 pl-20">
+                <p class="text-2xl item-cart">1</p>
+              </div>
+              <div class="flex flex-col pt-8 pl-2 gap-1">
+                <button>
+                  <img src="../assets/Rectangle 6.png" alt="up" class="up" />
+                </button>
+                <button>
+                  <img
+                    src="../assets/Rectangle 7.png"
+                    alt="down"
+                    class="down"
+                  />
+                </button>
+              </div>
+              <div class="flex pt-[2.05rem] pl-16">
+                <p class="price-cart">100$</p>
+                <div class="pl-16 relative bottom-[4px]">
+                  <img
+                    src="../assets/Trash Can.png"
+                    alt=""
+                    class="w-[25px] h-[25px] cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-[608px] h-[100px] border border-white rounded-2xl flex pt-2 pl-2 pb-4"
+            >
+              <img
+                src="../assets/Shoe 1.png"
+                alt=""
+                class="w-[80px] h-[82px] bg-white rounded-lg"
+              />
+              <div class="pl-4 pt-4">
+                <h5>Nike</h5>
+                <p>Good shoes for running</p>
+              </div>
+              <div class="pt-7 pl-20">
+                <p class="text-2xl item-cart">1</p>
+              </div>
+              <div class="flex flex-col pt-8 pl-2 gap-1">
+                <button>
+                  <img src="../assets/Rectangle 6.png" alt="up" class="up" />
+                </button>
+                <button>
+                  <img
+                    src="../assets/Rectangle 7.png"
+                    alt="down"
+                    class="down"
+                  />
+                </button>
+              </div>
+              <div class="flex pt-[2.05rem] pl-16">
+                <p class="price-cart">100$</p>
+                <div class="pl-16 relative bottom-[4px]">
+                  <img
+                    src="../assets/Trash Can.png"
+                    alt=""
+                    class="w-[25px] h-[25px] cursor-pointer"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pl-5 checkout-content">
+            <div
+              class="lg:w-96 md:w-8/12 w-full bg-gray-100 dark:bg-gray-900 h-[90%]"
+            >
+              <div
+                class="flex flex-col lg:h-screen h-auto lg:px-8 md:px-7 px-4 lg:py-20 md:py-10 py-6 justify-between overflow-y-auto"
+              >
+                <div>
+                  <p
+                    class="lg:text-4xl text-3xl font-black leading-9 text-gray-800 dark:text-white"
+                  >
+                    Summary
+                  </p>
+                  <div class="flex items-center justify-between pt-16">
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    >
+                      Subtotal
+                    </p>
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    >
+                      400$
+                    </p>
+                  </div>
+                  <div class="flex items-center justify-between pt-5">
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    >
+                      Shipping
+                    </p>
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    ></p>
+                  </div>
+                  <div class="flex items-center justify-between pt-5">
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    >
+                      Tax
+                    </p>
+                    <p
+                      class="text-base leading-none text-gray-800 dark:text-white"
+                    ></p>
+                  </div>
+                </div>
+                <div>
+                  <div
+                    class="flex items-center pb-6 justify-between lg:pt-5 pt-20"
+                  >
+                    <p
+                      class="text-2xl leading-normal text-gray-800 dark:text-white"
+                    >
+                      Total
+                    </p>
+                    <p
+                      class="text-2xl font-bold leading-normal text-right text-gray-800 dark:text-white"
+                    >
+                      400$
+                    </p>
+                  </div>
+                  <button
+                    onclick="checkoutHandler1(true)"
+                    class="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white dark:hover:bg-gray-700"
+                  >
+                    Checkout
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal section end -->
+    <div class="pt-10">
+      <h5 class="pl-[90px] pb-8 font-bold text-[40px] text-black">
+        MORE NIKE PRODUCTS
+      </h5>
+      <div class="relative">
+        <img src="../assets/image 11.png" alt="nike-promotion" />
+        <div class="absolute bottom-2 pl-12">
+          <h6 class="text-white text-[40px] font-black italic w-1/2">
+            YOUR NIKE MEMBERSHIP
+          </h6>
+          <p class="text-white pt-6 text-xl font-normal w-2/3">
+            Join our members and show your love with
+            <span class="font-bold">Nike By You!</span>
+          </p>
+          <div class="pt-6">
+            <button
+              class="btn bg-white text-black hover:bg-black hover:text-white"
+            >
+              Join Us!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="flex justify-between items-center bg-black">
+      <ul class="pl-12">
+        <li class="text-white">ALL</li>
+        <li class="text-white pt-12">WOMAN</li>
+        <li class="text-white pt-12">MEN</li>
+      </ul>
+      <img src="../assets/Group 65.png" alt="footer-logo" class="pt-12" />
+      <ul class="pr-12">
+        <li class="text-white">FOOTBALL</li>
+        <li class="text-white pt-12">RUN</li>
+        <li class="text-white pt-12">STREETWEAR</li>
+      </ul>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
